@@ -2,5 +2,9 @@
   "home": {
     "welcome": "Đây là trang chủ",
     "language": "Ngôn ngữ"
+  },
+  "secondPage": {
+    "welcome": "Chào mừng đến với trang thứ hai",
+    "content": "Đây là một câu có nhiều định dạng, bao gồm  một chữ <bold>in đậm</bold> và 1 chữ <i>in nghiên</i>"
   }
 }

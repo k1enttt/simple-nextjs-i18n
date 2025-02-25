@@ -2,5 +2,9 @@
   "home": {
     "welcome": "This is home page",
     "language": "Language"
+  },
+  "secondPage": {
+    "welcome": "Welcome to the second page",
+    "content": "This is a rich text which include a <bold>bold</bold> and a <i>italic</i> word"
   }
 }

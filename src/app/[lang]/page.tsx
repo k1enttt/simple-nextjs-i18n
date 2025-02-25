@@ -1,4 +1,5 @@
 'use client';
+import { Link } from "@/src/i18n/routing";
 import { useTranslations } from "next-intl";
 // import { setRequestLocale } from "next-intl/server";
 
@@ -19,7 +20,7 @@ export default function Home({
         {t("language")}: {lang}
       </div>
 
-      <button className="border border-black p-2">Change language</button>
+      <Link href="/second-page"><button className="border border-black p-2">Go to next page</button></Link>
     </div>
   );
 }
