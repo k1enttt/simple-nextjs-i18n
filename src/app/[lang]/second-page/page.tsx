@@ -1,3 +1,4 @@
+import LanguageSwitcher from "@/src/components/LanguageSwitcher";
 import { Link } from "@/src/i18n/routing";
 import { useTranslations } from "next-intl";
 
@@ -12,6 +13,7 @@ export default function SecondPage() {
           i: (chunk) => <i>{chunk}</i>,
         })}
       </div>
+      <LanguageSwitcher />
       <Link href="/">
         <button className="border border-black p-2">Back home</button>
       </Link>

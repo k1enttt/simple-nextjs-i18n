@@ -1,3 +1,17 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "no-restricted-imports": [
+      "error",
+      {
+        "paths": [
+          {
+            "name": "next/link",
+            "message": "Please use <Link> from @/src/i18n/routing instead.",
+            "importNames": ["default"]
+          }
+        ]
+      }
+    ]
+  }
 }
