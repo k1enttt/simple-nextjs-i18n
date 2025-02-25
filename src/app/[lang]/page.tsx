@@ -1,6 +1,7 @@
 import LanguageSwitcher from "@/src/components/LanguageSwitcher";
 import { Link } from "@/src/i18n/routing";
 import { useTranslations } from "next-intl";
+import { setRequestLocale } from "next-intl/server";
 // import { setRequestLocale } from "next-intl/server";
 
 export default function Home({
@@ -9,7 +10,7 @@ export default function Home({
   params: { lang: string };
 }) {
   // Enable static rendering
-  // setRequestLocale(lang);
+  setRequestLocale(lang);
 
   const t = useTranslations('home');
 

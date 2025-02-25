@@ -1,4 +1,9 @@
 {
+  "Metadata": {
+    "title": "Ví dụ i18n với NextJs",
+    "description": "Đây là một ví dụ về cách sử dụng i18n với NextJs",
+    "language": "vi"
+  },
   "home": {
     "welcome": "Đây là trang chủ",
     "language": "Ngôn ngữ"

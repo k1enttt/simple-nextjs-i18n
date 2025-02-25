@@ -1,8 +1,15 @@
 import LanguageSwitcher from "@/src/components/LanguageSwitcher";
 import { Link } from "@/src/i18n/routing";
 import { useTranslations } from "next-intl";
+import { setRequestLocale } from "next-intl/server";
 
-export default function SecondPage() {
+export default function SecondPage({
+  params: { lang },
+}: {
+  params: { lang: string };
+}) {
+  setRequestLocale(lang);
+
   const t = useTranslations("secondPage");
   return (
     <div>

@@ -1,4 +1,9 @@
 {
+  "Metadata": {
+    "title": "NextJs i18n Example",
+    "description": "This is an example of how to use i18n with NextJs",
+    "language": "en"
+  },
   "home": {
     "welcome": "This is home page",
     "language": "Language"

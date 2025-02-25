@@ -14,7 +14,6 @@ const LanguageSwitcher = () => {
   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const selectedLanguage = event.target.value;
     console.log(`Selected language: ${selectedLanguage}`);
-    // Add your language switch logic here
     startTransition(() => {
       // Add your language switch logic here
       const newPathname = pathname.replace(
